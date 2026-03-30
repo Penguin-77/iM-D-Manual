@@ -1,19 +1,18 @@
-/* 去掉图片及其父元素的蓝色虚线 */
-a:focus,
-img:focus {
+/* 精确命中 RTD 图片链接的 focus */
+a.reference.internal.image-reference:focus {
   outline: none !important;
 }
 
-/* 更彻底（可选） */
-*:focus {
+/* 防止图片本身也被加 outline */
+a.reference.internal.image-reference img {
   outline: none !important;
 }
 
-a img {
+/* 保险：去掉所有 a 的 focus（可选） */
+.rst-content a:focus {
   outline: none !important;
 }
 
-a:focus img {
-  outline: none !important;
+a.reference.internal.image-reference {
+  border: 5px solid red !important;
 }
-
