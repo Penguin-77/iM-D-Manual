@@ -1,0 +1,799 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>8. 安装与调试 &mdash; iM-D硬件用户手册 V01 文档</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=ecde6cc0"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="_static/translations.js?v=540d3cec"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="9. 选配设备" href="%E9%80%89%E9%85%8D%E8%AE%BE%E5%A4%87.html" />
+    <link rel="prev" title="7. 技术规格" href="07%20%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            iM-D硬件用户手册
+              <img src="_static/Logo1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目录</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="02%20%E5%89%8D%E8%A8%80.html">1. 前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02%20%E5%89%8D%E8%A8%80.html#id2">2. 重要安全说明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04%20%E6%89%8B%E5%86%8C%E6%A6%82%E8%BF%B0.html">3. 手册概述</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05%20%E5%AE%89%E5%85%A8%E8%A7%84%E8%8C%83.html">4. 安全规范</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06%20%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0.html">5. 系统概览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-1%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html">6. 快速入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07%20%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html">7. 技术规格</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">8. 安装与调试</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id3">8.1. 运输及保存</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">8.1.1. 运输条件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">8.1.2. 保存条件</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">8.2. 拆包及搬运</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">8.3. 电气连接</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13">8.3.1. 电气警告和注意事项</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">8.3.2. 电源电气接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">8.3.3. 电池电气接口</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id19">8.3.4. 充电</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">8.3.5. 断电</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">8.3.6. 更换电池</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id25">8.3.7. 用户接口</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dio-user">8.3.7.1. DIO_USER引脚定义</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id28">8.3.7.2. DIO_USER接口接线</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id30">8.3.7.3. 数字输入接口</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id32">8.3.7.4. 数字输出接口</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rs485">8.3.7.5. RS485接口引脚定义</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id35">8.3.7.6. RS485接口接线</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id37">8.4. 首次启动</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id39">8.4.1. 启动前准备</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id41">8.4.2. 启动底盘</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id43">8.4.3. 操作机器人</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id45">8.4.3.1. 手动模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id47">8.4.3.2. 自动模式</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="%E9%80%89%E9%85%8D%E8%AE%BE%E5%A4%87.html">9. 选配设备</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09%20%E7%BB%B4%E6%8A%A4.html">10. 维护</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10%20%E5%9B%9E%E6%94%B6%E5%A4%84%E7%90%86.html">11. 回收处理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11%20%E8%B4%A8%E9%87%8F%E4%BF%9D%E9%9A%9C.html">12. 质量保证</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">iM-D硬件用户手册</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">8. </span>安装与调试</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/08 安装与调试.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<span id="id2"></span><h1><span class="section-number">8. </span>安装与调试<a class="headerlink" href="#id1" title="链接到此标题。"></a></h1>
+<p>在阅读本章前，请确保您已经详细阅读并充分理解 <a class="reference internal" href="05%20%E5%AE%89%E5%85%A8%E8%A7%84%E8%8C%83.html#id1"><span class="std std-ref">安全规范</span></a> 。</p>
+<p>本章将快速介绍JAKA机器人的基本组件与使用方法，作为对机器人的初步了解。详细的机械电气规格请参考其它章节。</p>
+<p>在使用过程中，如果您需要快速帮助，请拨打我们的快速咨询热线：400-006-2665。</p>
+<section id="id3">
+<span id="id4"></span><h2><span class="section-number">8.1. </span>运输及保存<a class="headerlink" href="#id3" title="链接到此标题。"></a></h2>
+<section id="id5">
+<span id="id6"></span><h3><span class="section-number">8.1.1. </span>运输条件<a class="headerlink" href="#id5" title="链接到此标题。"></a></h3>
+<p>机器人运输时需要使用原包装，因此如果有运输需求，请务必保存好原包装。</p>
+<p>机器人吊装时，应采取相应措施进行定位，避免产生意外运动造成损伤。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<ul class="simple">
+<li><p>确保抬升设备时作业人员背部或身体其他部位不会过分负重。使用适当的抬升设备。JAKA不对设备运输过程中产生的损害负责。</p></li>
+<li><p>请遵守各地区及国家有关搬运法规。</p></li>
+<li><p>确保安装机器人时严格遵守安装指示。</p></li>
+</ul>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">注意</p>
+<p>如果运输机器人时未使用其原始包装，所有保修都将失效。</p>
+</div>
+</section>
+<section id="id7">
+<span id="id8"></span><h3><span class="section-number">8.1.2. </span>保存条件<a class="headerlink" href="#id7" title="链接到此标题。"></a></h3>
+<p>1.      保存温度：-10~50℃
+长期保存时，为了维持其可靠性，建议将温度维持在25±10℃内。请避免急剧的温度变化（10℃/h以上）。</p>
+<p>2.      保存湿度：20~85%RH
+长期保存时，为了维持其可靠性，建议将湿度维持在45~65%内。保存时避免结露或发霉。</p>
+<p>3.      防静电
+保存在极端干燥的状况下容易产生静电，静电放电时的冲击可能破坏半导体。请放入防静电袋中保存。</p>
+<p>4.      其他环境条件
+请保存在不会产生有毒气体、污垢、尘埃较少的环境中。保存期间请勿在其上面放置重物。</p>
+</section>
+</section>
+<section id="id9">
+<span id="id10"></span><h2><span class="section-number">8.2. </span>拆包及搬运<a class="headerlink" href="#id9" title="链接到此标题。"></a></h2>
+<p>iM-D移动底盘采用纸箱加托盘的包装形式。操作步骤如下：</p>
+<ol class="arabic">
+<li><p>剪开固定扎带，拆开并取下外层纸箱。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/剪断扎带.svg"><img alt="_images/%E5%89%AA%E6%96%AD%E6%89%8E%E5%B8%A6.svg" src="_images/%E5%89%AA%E6%96%AD%E6%89%8E%E5%B8%A6.svg" style="width: 7cm;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/取下外包装箱.svg"><img alt="_images/%E5%8F%96%E4%B8%8B%E5%A4%96%E5%8C%85%E8%A3%85%E7%AE%B1.svg" src="_images/%E5%8F%96%E4%B8%8B%E5%A4%96%E5%8C%85%E8%A3%85%E7%AE%B1.svg" style="width: 9cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="2">
+<li><p>将放置于泡棉内的斜坡木板取出，并将其放置于托盘前并将二者对齐。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/放置斜坡木板.svg"><img alt="_images/%E6%94%BE%E7%BD%AE%E6%96%9C%E5%9D%A1%E6%9C%A8%E6%9D%BF.svg" src="_images/%E6%94%BE%E7%BD%AE%E6%96%9C%E5%9D%A1%E6%9C%A8%E6%9D%BF.svg" style="width: 8cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="3">
+<li><p>取下固定泡棉。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/取下泡棉.svg"><img alt="_images/%E5%8F%96%E4%B8%8B%E6%B3%A1%E6%A3%89.svg" src="_images/%E5%8F%96%E4%B8%8B%E6%B3%A1%E6%A3%89.svg" style="width: 10cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="4">
+<li><p>打开移动底盘右侧靠前的电池仓门，拨动电源开关，使其处于 <strong>I</strong> 位置。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/打开电源开关.svg"><img alt="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%BA%90%E5%BC%80%E5%85%B3.svg" src="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%BA%90%E5%BC%80%E5%85%B3.svg" style="width: 10cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="5">
+<li><p>按下位于移动底盘背面的电源按钮，此时指示灯青色呼吸，表示移动底盘已上电。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/按下电源按钮.svg"><img alt="_images/%E6%8C%89%E4%B8%8B%E7%94%B5%E6%BA%90%E6%8C%89%E9%92%AE.svg" src="_images/%E6%8C%89%E4%B8%8B%E7%94%B5%E6%BA%90%E6%8C%89%E9%92%AE.svg" style="width: 7cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="6">
+<li><p>长按位于移动底盘背面的释放抱闸按钮3秒，待指示灯变为蓝色后，表示抱闸已释放。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/按下释放抱闸按钮.svg"><img alt="_images/%E6%8C%89%E4%B8%8B%E9%87%8A%E6%94%BE%E6%8A%B1%E9%97%B8%E6%8C%89%E9%92%AE.svg" src="_images/%E6%8C%89%E4%B8%8B%E9%87%8A%E6%94%BE%E6%8A%B1%E9%97%B8%E6%8C%89%E9%92%AE.svg" style="width: 7cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><ol class="arabic" start="7">
+<li><p>至少由两人推动移动底盘，直至离开托盘和斜坡。</p>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/取出移动底盘.svg"><img alt="_images/%E5%8F%96%E5%87%BA%E7%A7%BB%E5%8A%A8%E5%BA%95%E7%9B%98.svg" src="_images/%E5%8F%96%E5%87%BA%E7%A7%BB%E5%8A%A8%E5%BA%95%E7%9B%98.svg" style="width: 8cm;" />
+</a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<div style="clear: both;"></div><div class="admonition attention">
+<p class="admonition-title">注意</p>
+<p>在推动移动底盘前，务必确保托盘及斜坡木板已可靠固定，以防止移动底盘倾覆。</p>
+</div>
+</section>
+<section id="id11">
+<span id="id12"></span><h2><span class="section-number">8.3. </span>电气连接<a class="headerlink" href="#id11" title="链接到此标题。"></a></h2>
+<section id="id13">
+<span id="id14"></span><h3><span class="section-number">8.3.1. </span>电气警告和注意事项<a class="headerlink" href="#id13" title="链接到此标题。"></a></h3>
+<p>在设计和安装机器人应用时，务必遵循以下警告和注意事项。实施维护作业同样要遵循这些警告和注意事项。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<ul class="simple">
+<li><p>切勿将安全信号连接到安全等级不合适的非安全型PLC。如不遵守该警告，可能会因某项安全停止功能失效而导致严重受伤乃至死亡。务必将安全接口信号与普通I/O接口信号分开。</p></li>
+<li><p>所有安全信号均具备冗余性（两个独立通道）。保持两个通道独立，可确保在发生单一故障时不会丧失安全功能。</p></li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<ul class="simple">
+<li><p>请确保所有严禁沾水的设备都保持干燥。如果有水进入产品，请及时切断电源，并联系JAKA授权的集成商。</p></li>
+<li><p>仅使用该机器人的原装线缆。请不要在那些线缆需要弯折的应用中使用机器人。如果需要更长的线缆，或者适用于频繁弯折场景的柔性电缆，请联系JAKA授权的集成商。</p></li>
+<li><p>对于保护性接地（PE），请使用控制柜中标记接地标志的螺钉接头。接地连接器的额定电流至少应能够承受机器人系统内的最大电流。</p></li>
+<li><p>当向控制柜的I/O接口安装线缆的时候，打开柜门，去掉出线孔金属板，并保证I/O线缆避免与出线孔边缘摩擦。</p></li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<ul class="simple">
+<li><p>机器人已通过相关标准规定的电磁兼容性检测，超过标准的干扰信号将会造成机器人的异常行为，信号电平极高或过度暴露将会对机器人造成永久性的损害。由超出范围的EMC问题造成的任何损失，JAKA概不负责。</p></li>
+<li><p>用于连接控制柜与其他机械或工厂设备的I/O线缆长度不得超过30米，除非进行延长测试后表明可行，且必要时需使用屏蔽线缆。</p></li>
+</ul>
+</div>
+</section>
+<section id="id15">
+<span id="id16"></span><h3><span class="section-number">8.3.2. </span>电源电气接口<a class="headerlink" href="#id15" title="链接到此标题。"></a></h3>
+<p>电源接口位于移动底盘背面，如下图所示。</p>
+<figure class="align-center" id="id49">
+<a class="reference internal image-reference" href="_images/电源接口.svg"><img alt="_images/%E7%94%B5%E6%BA%90%E6%8E%A5%E5%8F%A3.svg" src="_images/%E7%94%B5%E6%BA%90%E6%8E%A5%E5%8F%A3.svg" style="width: 6cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.1 </span><span class="caption-text">电源接口</span><a class="headerlink" href="#id49" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<div style="clear: both;"></div><p>接口的引脚定义如下：</p>
+<blockquote>
+<div><figure class="align-center" id="id50">
+<a class="reference internal image-reference" href="_images/电源电气接口.svg"><img alt="_images/%E7%94%B5%E6%BA%90%E7%94%B5%E6%B0%94%E6%8E%A5%E5%8F%A3.svg" src="_images/%E7%94%B5%E6%BA%90%E7%94%B5%E6%B0%94%E6%8E%A5%E5%8F%A3.svg" style="width: 8cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.2 </span><span class="caption-text">电源电气接口</span><a class="headerlink" href="#id50" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><p>1 48V</p></li>
+<li><p>2 GND</p></li>
+<li><p>3 CAN_H</p></li>
+<li><p>4 CAN_L</p></li>
+<li><p>5 PWR</p></li>
+<li><p>6 ACC</p></li>
+</ul>
+</section>
+<section id="id17">
+<span id="id18"></span><h3><span class="section-number">8.3.3. </span>电池电气接口<a class="headerlink" href="#id17" title="链接到此标题。"></a></h3>
+<p>电池上有两个接口，方形接口用于在移动底盘内充电，圆形接口用于取出直连充电器充电。接口的引脚定义如下：</p>
+<blockquote>
+<div><figure class="align-center" id="id51">
+<a class="reference internal image-reference" href="_images/方形电池接口.svg"><img alt="_images/%E6%96%B9%E5%BD%A2%E7%94%B5%E6%B1%A0%E6%8E%A5%E5%8F%A3.svg" src="_images/%E6%96%B9%E5%BD%A2%E7%94%B5%E6%B1%A0%E6%8E%A5%E5%8F%A3.svg" style="width: 7cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.3 </span><span class="caption-text">方形电池接口</span><a class="headerlink" href="#id51" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><p>1 充/放电正</p></li>
+<li><p>3 电池ID识别引脚 1</p></li>
+<li><p>4 ACC</p></li>
+<li><p>6 CAN_H</p></li>
+<li><p>8 电池ID识别引脚 2</p></li>
+<li><p>9 PWR</p></li>
+<li><p>11 CAN_L</p></li>
+<li><p>12 CRG</p></li>
+<li><p>14 充/放电负</p></li>
+</ul>
+<blockquote>
+<div><figure class="align-center" id="id52">
+<a class="reference internal image-reference" href="_images/圆形电池接口.svg"><img alt="_images/%E5%9C%86%E5%BD%A2%E7%94%B5%E6%B1%A0%E6%8E%A5%E5%8F%A3.svg" src="_images/%E5%9C%86%E5%BD%A2%E7%94%B5%E6%B1%A0%E6%8E%A5%E5%8F%A3.svg" style="width: 6cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.4 </span><span class="caption-text">圆形电池接口</span><a class="headerlink" href="#id52" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><p>1 充电正极输入</p></li>
+<li><p>2 充电负极输入</p></li>
+<li><p>3 充电信号 1</p></li>
+<li><p>4 充电信号 2</p></li>
+<li><p>5 CAN_H</p></li>
+<li><p>6 CAN_L</p></li>
+</ul>
+</section>
+<section id="id19">
+<span id="id20"></span><h3><span class="section-number">8.3.4. </span>充电<a class="headerlink" href="#id19" title="链接到此标题。"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>使用非原装充电设备可能引发火灾，进而导致附近人员被烧伤，机器人和设备损坏。必须使用JAKA原装充电器及电源线。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>若滥用电力或机械滥用锂电池组，锂电池组可能变热、爆炸或燃烧，并导致严重伤害。</p>
+<ul class="simple">
+<li><p>遵循下列预防措施以正确处理和使用锂电池：</p></li>
+<li><p>切勿连接可能存在缺陷或损坏的电池或者为其充电。</p></li>
+<li><p>切勿暴露在超过规定温度范围的环境中，切勿焚烧电池。</p></li>
+<li><p>切勿挤压、戳刺或拆解电池。电池含有安全和保护设备。若损坏，可能会导致电池发热、爆炸或燃烧。</p></li>
+<li><p>切勿浸湿电池。</p></li>
+<li><p>若发生电池泄漏，液体不慎流入眼睛，请勿揉眼。先适当使用清水清洗，并立即就医。若置之不理，电池液体会损伤眼部。</p></li>
+<li><p>如遇火灾，请用水扑灭火。无需特殊灭火剂。</p></li>
+<li><p>不得徒手接触损坏的电池。只有使用适当个人防护设备(PPE)和工具的人员才能处理损坏的电池。</p></li>
+<li><p>如果观察到以下情况，请与之隔离开来并切勿接触电池：</p>
+<ul>
+<li><p>电池异常高温。</p></li>
+<li><p>电池发出异常气味。</p></li>
+<li><p>电池颜色有所变化。</p></li>
+<li><p>电池外壳变形，或发生超出正常电气或机械原由的变化。</p></li>
+</ul>
+</li>
+<li><p>请勿改装或篡改电池。这样将导致存在相当大的安全风险，因此必须禁止。</p></li>
+<li><p>机器人电池附近禁止吸烟或存在开放火花或明火。</p></li>
+<li><p>不得将电池用于其他用途。</p></li>
+</ul>
+</div>
+<p>机器人由两块锂电池供电，电池位于移动底盘右侧的电池仓内。</p>
+<p>有两种充电方式，分别为整车充电和单电池充电。操作步骤如下：</p>
+<p><strong>1. 整车充电：</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>确认电池在底盘的电池仓中。</p></li>
+<li><p>将电源转接线的圆形连接器的一端与充电器圆形连接器对插。</p></li>
+<li><p>将充电器的三芯插头插入市电插座。</p></li>
+<li><p>将电源转接线的方形连接器的一端连接至机器人底部的电源接口。</p></li>
+</ul>
+</div></blockquote>
+<p><strong>2. 单电池充电：</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>将电池从底盘的电池仓取出，并关闭仓门。</p></li>
+<li><p>将充电器的三芯插头插入市电插座。</p></li>
+<li><p>将充电器的圆形连接器的一端连接至电池充电接口。</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="id21">
+<span id="id22"></span><h3><span class="section-number">8.3.5. </span>断电<a class="headerlink" href="#id21" title="链接到此标题。"></a></h3>
+<p>在运输、维护机器人或将其存储24小时以上时，应断开电源。以防止不必要的放电、触电风险和短路风险。</p>
+<div class="admonition attention">
+<p class="admonition-title">注意</p>
+<p>在断开电源线缆之前，需确保机器人未运行程序，且已下电，否则异常断电会导致程序、配置数据丢失。</p>
+</div>
+<p>断开电源线缆操作顺序与连接电源线相反，需先断开与电池/机器人的连接，再断开市电。</p>
+</section>
+<section id="id23">
+<span id="id24"></span><h3><span class="section-number">8.3.6. </span>更换电池<a class="headerlink" href="#id23" title="链接到此标题。"></a></h3>
+<div class="admonition attention">
+<p class="admonition-title">注意</p>
+<p>电池支持热插拔，若在机器人不断电情况下换电池，两块电池需分开取出，不可同时取出，否则将导致系统意外断电，造成数据丢失或系统损坏。</p>
+</div>
+<p>更换电池操作步骤如下：</p>
+<ul class="simple">
+<li><p>暂停机器人当前在执行的全部任务。</p></li>
+<li><p>打开移动底盘左侧的电池仓门。</p></li>
+</ul>
+<blockquote>
+<div><figure class="align-center" id="id53">
+<a class="reference internal image-reference" href="_images/打开电池仓.svg"><img alt="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%B1%A0%E4%BB%93.svg" src="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%B1%A0%E4%BB%93.svg" style="width: 8cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.5 </span><span class="caption-text">打开电池仓</span><a class="headerlink" href="#id53" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><p>抓住电池手柄，微微上抬电池，并轻轻地将电池拉出。</p></li>
+</ul>
+<blockquote>
+<div><figure class="align-center" id="id54">
+<a class="reference internal image-reference" href="_images/取出电池.svg"><img alt="_images/%E5%8F%96%E5%87%BA%E7%94%B5%E6%B1%A0.svg" src="_images/%E5%8F%96%E5%87%BA%E7%94%B5%E6%B1%A0.svg" style="width: 8cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.6 </span><span class="caption-text">取出电池</span><a class="headerlink" href="#id54" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><p>插入一块充满电的电池，确保电池已到位。</p></li>
+</ul>
+</section>
+<section id="id25">
+<span id="id26"></span><h3><span class="section-number">8.3.7. </span>用户接口<a class="headerlink" href="#id25" title="链接到此标题。"></a></h3>
+<p>用户接口位于移动底盘内部，打开磁吸背板即可看到，位置如下图所示。</p>
+<figure class="align-center" id="id55">
+<a class="reference internal image-reference" href="_images/用户接口位置.svg"><img alt="_images/%E7%94%A8%E6%88%B7%E6%8E%A5%E5%8F%A3%E4%BD%8D%E7%BD%AE.svg" src="_images/%E7%94%A8%E6%88%B7%E6%8E%A5%E5%8F%A3%E4%BD%8D%E7%BD%AE.svg" style="width: 10cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.7 </span><span class="caption-text">用户接口位置</span><a class="headerlink" href="#id55" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<p>接口说明如下：</p>
+<figure class="align-center" id="id56">
+<a class="reference internal image-reference" href="_images/用户接口.svg"><img alt="_images/%E7%94%A8%E6%88%B7%E6%8E%A5%E5%8F%A3.svg" src="_images/%E7%94%A8%E6%88%B7%E6%8E%A5%E5%8F%A3.svg" style="width: 18cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.8 </span><span class="caption-text">用户接口</span><a class="headerlink" href="#id56" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple">
+<li><p>HDMI接口：已占用，连接至移动底盘背面的控制面板。</p></li>
+<li><p>USB1接口：已占用，连接至移动底盘背面的控制面板。</p></li>
+<li><p>USB2接口：供用户调试使用。</p></li>
+<li><p>LAN1网口：千兆网口，为固定IP，IP地址为10.5.5.100。</p></li>
+<li><p>LAN2网口：千兆网口，为动态IP，默认IP地址为192.168.80.10。</p></li>
+<li><p>LED：已占用，连接至移动底盘的灯带。</p></li>
+<li><p>CAN：已占用，连接至机械臂，以实现通讯。</p></li>
+<li><p>RS485：用于连接外部设备，实现RS485通讯。接线见 <a class="reference internal" href="#id35"><span class="std std-ref">RS485接口接线</span></a>。</p></li>
+<li><p>DIO_USER：24pin I/O接口，有8路DI，8路DO，4路24V+，4路GND，接口定义见 <a class="reference internal" href="#dio-user"><span class="std std-ref">DIO_USER引脚定义</span></a>。接线见 <a class="reference internal" href="#id28"><span class="std std-ref">DIO_USER接口接线</span></a>。</p></li>
+<li><p>DC24V_USER：用于给外部设备提供24V电源，电流输出能力为3A，默认出厂提供一根连接线，24V+连接至外部设备的V＋，GND连接至外部设备的V-。</p></li>
+<li><p>DC48V_USER：用于给外部设备提供48V电源，电流输出能力为10A，默认出厂提供一根连接线，48V+连接至外部设备的V＋，GND连接至外部设备的V-。</p></li>
+<li><p>START：已占用，连接至移动底盘背面的 <strong>开关</strong> 按钮。</p></li>
+<li><p>BREAK：已占用，连接至移动底盘背面的 <strong>释放抱闸</strong> 按钮。</p></li>
+<li><p>RESET：已占用，连接至移动底盘背面的 <strong>复位</strong> 按钮。</p></li>
+<li><p>PAUSE：已占用，连接至移动底盘背面的 <strong>暂停/停止</strong> 按钮。</p></li>
+<li><p>ESTOP：已占用，连接至移动底盘的 <strong>紧急停止</strong> 按钮。</p></li>
+<li><p>DC24V：已占用，连接至移动底盘背面的控制面板，给控制面板供电。</p></li>
+<li><p>DC48V：已占用，连接至机械臂，给机械臂供电。</p></li>
+</ol>
+<section id="dio-user">
+<span id="id27"></span><h4><span class="section-number">8.3.7.1. </span>DIO_USER引脚定义<a class="headerlink" href="#dio-user" title="链接到此标题。"></a></h4>
+<figure class="align-center" id="id57">
+<a class="reference internal image-reference" href="_images/DIO_USER接口.svg"><img alt="_images/DIO_USER%E6%8E%A5%E5%8F%A3.svg" src="_images/DIO_USER%E6%8E%A5%E5%8F%A3.svg" style="width: 8cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.9 </span><span class="caption-text">DIO_USER接口</span><a class="headerlink" href="#id57" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<table class="docutils align-default" id="id58">
+<caption><span class="caption-number">表 8.1 </span><span class="caption-text">I/O接口引脚定义</span><a class="headerlink" href="#id58" title="链接到此表格。"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 20.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>引脚</strong></p></th>
+<th class="head"><p><strong>名称</strong></p></th>
+<th class="head"><p><strong>功能</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>DO0</p></td>
+<td><p>第1路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>DI0</p></td>
+<td><p>第1路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>DO1</p></td>
+<td><p>第2路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>DI1</p></td>
+<td><p>第2路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>DO2</p></td>
+<td><p>第3路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>DI2</p></td>
+<td><p>第3路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>DO3</p></td>
+<td><p>第4路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>DI3</p></td>
+<td><p>第4路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>DO4</p></td>
+<td><p>第5路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>DI4</p></td>
+<td><p>第5路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>DO5</p></td>
+<td><p>第6路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>DI5</p></td>
+<td><p>第6路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>DO6</p></td>
+<td><p>第7路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>DI6</p></td>
+<td><p>第7路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>DO7</p></td>
+<td><p>第8路数字输出，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-odd"><td><p>16</p></td>
+<td><p>DI7</p></td>
+<td><p>第8路数字输入，持续电流输出能力≤1A，PNP型</p></td>
+</tr>
+<tr class="row-even"><td><p>17，19，21，23</p></td>
+<td><p>24V</p></td>
+<td><p>隔离电源输入正</p></td>
+</tr>
+<tr class="row-odd"><td><p>18，20，22，24</p></td>
+<td><p>GND</p></td>
+<td><p>隔离电源输入负</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id28">
+<span id="id29"></span><h4><span class="section-number">8.3.7.2. </span>DIO_USER接口接线<a class="headerlink" href="#id28" title="链接到此标题。"></a></h4>
+</section>
+<section id="id30">
+<span id="id31"></span><h4><span class="section-number">8.3.7.3. </span>数字输入接口<a class="headerlink" href="#id30" title="链接到此标题。"></a></h4>
+<ol class="arabic simple">
+<li><p><strong>干接点信号作为输入</strong></p></li>
+</ol>
+<p>干接点信号作为输入时，以DI0为例，接线方式如下，DI1~DI7同理。</p>
+<figure class="align-center" id="id59">
+<a class="reference internal image-reference" href="_images/DIO_USER干接点信号作为输入.svg"><img alt="_images/DIO_USER%E5%B9%B2%E6%8E%A5%E7%82%B9%E4%BF%A1%E5%8F%B7%E4%BD%9C%E4%B8%BA%E8%BE%93%E5%85%A5.svg" src="_images/DIO_USER%E5%B9%B2%E6%8E%A5%E7%82%B9%E4%BF%A1%E5%8F%B7%E4%BD%9C%E4%B8%BA%E8%BE%93%E5%85%A5.svg" style="width: 9cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.10 </span><span class="caption-text">干接点信号作为输入接线</span><a class="headerlink" href="#id59" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple" start="2">
+<li><p><strong>PNP型信号作为输入</strong></p></li>
+</ol>
+<p>输入PNP型信号时，以DI0为例，接线方式如下，DI1~DI7同理。</p>
+<p>外部设备正极连接24V线，信号线OUT连接至指定DI线，外部设备负极连接GND线。</p>
+<figure class="align-center" id="id60">
+<a class="reference internal image-reference" href="_images/DIO_USERPNP型信号作为输入.svg"><img alt="_images/DIO_USERPNP%E5%9E%8B%E4%BF%A1%E5%8F%B7%E4%BD%9C%E4%B8%BA%E8%BE%93%E5%85%A5.svg" src="_images/DIO_USERPNP%E5%9E%8B%E4%BF%A1%E5%8F%B7%E4%BD%9C%E4%B8%BA%E8%BE%93%E5%85%A5.svg" style="width: 9cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.11 </span><span class="caption-text">PNP型信号作为输入接线</span><a class="headerlink" href="#id60" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id32">
+<span id="id33"></span><h4><span class="section-number">8.3.7.4. </span>数字输出接口<a class="headerlink" href="#id32" title="链接到此标题。"></a></h4>
+<p>数字输出接线时，以DO0为例，接线方式如下，DO1~DO7同理。</p>
+<figure class="align-center" id="id61">
+<a class="reference internal image-reference" href="_images/DIO_USER数字输出接线.svg"><img alt="_images/DIO_USER%E6%95%B0%E5%AD%97%E8%BE%93%E5%87%BA%E6%8E%A5%E7%BA%BF.svg" src="_images/DIO_USER%E6%95%B0%E5%AD%97%E8%BE%93%E5%87%BA%E6%8E%A5%E7%BA%BF.svg" style="width: 9cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.12 </span><span class="caption-text">数字输出接线</span><a class="headerlink" href="#id61" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="rs485">
+<span id="id34"></span><h4><span class="section-number">8.3.7.5. </span>RS485接口引脚定义<a class="headerlink" href="#rs485" title="链接到此标题。"></a></h4>
+<blockquote>
+<div><figure class="align-center" id="id62">
+<a class="reference internal image-reference" href="_images/RS485接口.svg"><img alt="_images/RS485%E6%8E%A5%E5%8F%A3.svg" src="_images/RS485%E6%8E%A5%E5%8F%A3.svg" style="width: 6cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.13 </span><span class="caption-text">RS485接口</span><a class="headerlink" href="#id62" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<ul class="simple">
+<li><ol class="arabic simple">
+<li><p>RS485_B</p></li>
+</ol>
+</li>
+<li><ol class="arabic simple" start="2">
+<li><p>RS485_A</p></li>
+</ol>
+</li>
+</ul>
+</section>
+<section id="id35">
+<span id="id36"></span><h4><span class="section-number">8.3.7.6. </span>RS485接口接线<a class="headerlink" href="#id35" title="链接到此标题。"></a></h4>
+<p>出厂默认提供一根RS485接口连接线，接线方式如下：</p>
+<blockquote>
+<div><figure class="align-center" id="id63">
+<a class="reference internal image-reference" href="_images/RS485接线.svg"><img alt="_images/RS485%E6%8E%A5%E7%BA%BF.svg" src="_images/RS485%E6%8E%A5%E7%BA%BF.svg" style="width: 18cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.14 </span><span class="caption-text">RS485接线</span><a class="headerlink" href="#id63" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">备注</p>
+<p>建议接线时终端连接120Ω电阻，推荐使用YAGEO MF0207FTE52-120R型号电阻。</p>
+</div>
+</div></blockquote>
+</section>
+</section>
+</section>
+<section id="id37">
+<span id="id38"></span><h2><span class="section-number">8.4. </span>首次启动<a class="headerlink" href="#id37" title="链接到此标题。"></a></h2>
+<section id="id39">
+<span id="id40"></span><h3><span class="section-number">8.4.1. </span>启动前准备<a class="headerlink" href="#id39" title="链接到此标题。"></a></h3>
+<p>在调试机器人之前，应验证以下项目：</p>
+<ul class="simple">
+<li><p>验证紧急停止装置和操作员防护装置。</p></li>
+<li><p>根据相关标准，设计防护装置以确保机器人在不偏离预定路径的情况下停止（停止类别1）。</p></li>
+<li><p>缓慢移动机器人超出预设工作空间的范围，以验证运动是否受限。</p></li>
+<li><p>使机器人运动超出最大和最小角度，以验证运动是否受限。</p></li>
+</ul>
+</section>
+<section id="id41">
+<span id="id42"></span><h3><span class="section-number">8.4.2. </span>启动底盘<a class="headerlink" href="#id41" title="链接到此标题。"></a></h3>
+<p>底盘首次运行时，可能因接线错误、安装紧固不当或参数设置不匹配导致做出预期之外的动作。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p><strong>设备意外运行风险：</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>确认所有部件已正确、牢固安装。</p></li>
+<li><p>采取必要措施，确保底盘运动部件不会发生非预期运动。</p></li>
+<li><p>确认急停装置功能正常且位于操作区域可触及范围内。</p></li>
+<li><p>启动系统前，确认运动路径无障碍物且系统已就绪。</p></li>
+<li><p>首次启动测试应以低速运行。</p></li>
+</ul>
+</div></blockquote>
+<p>未遵循上述要求可能导致人员死亡、重伤或设备损坏。</p>
+</div>
+<p>若底盘电源因断电或故障意外中断，底盘将无法以受控方式减速停止。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p><strong>设备意外运行风险：</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>需确保制动器失效状态下的运动不会造成人员伤害或设备损坏。</p></li>
+</ul>
+</div></blockquote>
+<p>未遵循上述要求可能导致人员死亡、重伤或设备损坏。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p><strong>高温表面风险：</strong></p>
+<ul class="simple">
+<li><p>禁止在高温表面附近放置易燃或热敏感部件。</p></li>
+<li><p>通过满负荷条件下的试运行，验证系统散热性能是否符合要求。</p></li>
+</ul>
+<p>未遵循上述要求可能导致人员死亡、重伤或设备损坏。</p>
+</div>
+<p><strong>底盘开关机流程如下：</strong></p>
+<ul>
+<li><p>打开移动底盘右侧靠前的电池仓，拨动电源开关，使其处于 <strong>I</strong> 位置。</p>
+<blockquote>
+<div><figure class="align-center" id="id64">
+<a class="reference internal image-reference" href="_images/打开电源开关.svg"><img alt="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%BA%90%E5%BC%80%E5%85%B3.svg" src="_images/%E6%89%93%E5%BC%80%E7%94%B5%E6%BA%90%E5%BC%80%E5%85%B3.svg" style="width: 8cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.15 </span><span class="caption-text">打开电源开关</span><a class="headerlink" href="#id64" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+<li><p>按下移动底盘背面的电源按钮，底盘指示灯青色呼吸，此时，上电完成。</p>
+<blockquote>
+<div><figure class="align-center" id="id65">
+<a class="reference internal image-reference" href="_images/按下电源按钮.svg"><img alt="_images/%E6%8C%89%E4%B8%8B%E7%94%B5%E6%BA%90%E6%8C%89%E9%92%AE.svg" src="_images/%E6%8C%89%E4%B8%8B%E7%94%B5%E6%BA%90%E6%8C%89%E9%92%AE.svg" style="width: 7cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 8.16 </span><span class="caption-text">按下电源按钮</span><a class="headerlink" href="#id65" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+</li>
+<li><p>长按移动底盘背面的电源按钮15秒，整机指示熄灭，此时，系统断电。</p></li>
+<li><p>打开移动底盘右侧靠前的电池仓，拨动电源开关，使其处于 <strong>O</strong> 位置。</p></li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">注意</p>
+<p>非紧急状态下，必须严格遵循标准启停流程操作机器人系统。严禁强制断电，否则将导致数据丢失及系统可靠性风险。</p>
+</div>
+</section>
+<section id="id43">
+<span id="id44"></span><h3><span class="section-number">8.4.3. </span>操作机器人<a class="headerlink" href="#id43" title="链接到此标题。"></a></h3>
+<p>机器人有两种工作模式：手动模式、自动模式。</p>
+<section id="id45">
+<span id="id46"></span><h4><span class="section-number">8.4.3.1. </span>手动模式<a class="headerlink" href="#id45" title="链接到此标题。"></a></h4>
+<p>有以下机种方式手动操作机器人：</p>
+<ul class="simple">
+<li><p>JAKA Coboπ软件（参考软件用户手册）</p></li>
+<li><p>SDK API（参考SDK用户手册）</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>在手动模式下控制机器人时，操作员有责任确保附近人员的安全。未意识到风险和未小心操作机器人可能导致人员受伤或设备损坏。</p>
+<ul class="simple">
+<li><p>在手动模式下操作机器人时，请务必小心，避免碰撞到周围的人员或物体。</p></li>
+<li><p>如果视线受阻，无法清楚观察机器人的状态，请勿手动控制机器人。</p></li>
+</ul>
+</div>
+</section>
+<section id="id47">
+<span id="id48"></span><h4><span class="section-number">8.4.3.2. </span>自动模式<a class="headerlink" href="#id47" title="链接到此标题。"></a></h4>
+<p>在此模式下，机器人执行预先编程好的任务。有以下几种方式实现机器人自主运动：</p>
+<ul class="simple">
+<li><p>JAKA Coboπ软件（参考软件用户手册）</p></li>
+<li><p>SDK API（参考SDK用户手册）</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="07%20%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html" class="btn btn-neutral float-left" title="7. 技术规格" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="%E9%80%89%E9%85%8D%E8%AE%BE%E5%A4%87.html" class="btn btn-neutral float-right" title="9. 选配设备" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2026, JAKA。</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

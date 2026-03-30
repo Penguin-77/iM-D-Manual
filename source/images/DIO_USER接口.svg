@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414.59 324.76">
+  <g id="Make2D::可见线::正切线">
+    <line x1="323.08" y1="16.32" x2="323.08" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M323.08,16.32c2.52,0,5.21,.53,7.47,1.73,2.16,1.15,4.34,3.19,4.34,5.96" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="91.48" y1="16.32" x2="91.48" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M91.48,16.32c-2.52,0-5.21,.53-7.48,1.73-2.16,1.15-4.34,3.19-4.34,5.96" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M.5,58.28s.02,0,.04,0H5.32" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M5.32,89H.65s-.1-.03-.15,0" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="5.32" y1="89" x2="5.32" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="398.71" y1="58.28" x2="409.25" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M399.84,46.46c2.92,0,5.4,1.67,7.01,3.94,1.62,2.28,2.4,5.12,2.4,7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,58.28c0-2.76-.77-5.6-2.4-7.88-1.61-2.27-4.09-3.94-7.01-3.94" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M414.06,58.28s-.02,0-.04,0h-4.78" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M14.72,46.46c-2.92,0-5.4,1.67-7.01,3.94-1.62,2.28-2.4,5.12-2.4,7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="5.32" y1="58.28" x2="15.86" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M25.27,46.46c-2.92,0-5.4,1.67-7.01,3.94-1.62,2.28-2.4,5.12-2.4,7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="409.25" y1="58.28" x2="409.25" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M315.99,9.24c2.06,.02,3.79,.79,5.17,2.31,.6,.66,1.07,1.42,1.42,2.28,.32,.8,.49,1.64,.5,2.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="258.56" y1="9.24" x2="315.99" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="182.94" y1="9.24" x2="231.62" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="98.57" y1="9.24" x2="156" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M91.48,16.32c0-.86,.17-1.69,.5-2.5,.35-.87,.82-1.63,1.42-2.28,1.38-1.52,3.11-2.29,5.17-2.31" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="15.86" y1="58.28" x2="15.86" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,58.28H15.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,46.46c.02-.05,0,.06,0,.09v11.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="398.71" y1="89" x2="398.71" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,58.28v-11.47c0-.12,.01-.23,0-.35" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,58.28h-18.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,89v4.69s.02,.04,0,.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M15.86,89h18.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,89h18.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,93.73s0-.02,0-.03v-4.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M409.25,276.88c0-1.19-.26-2.17-.96-3.15-.65-.91-1.64-1.58-2.81-1.58" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M414.06,276.88c.1,0-.1,0-.15,0h-4.67" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M409.25,307.6h3.61c.4,0,.8,.05,1.2,0" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="409.25" y1="307.6" x2="409.25" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="409.25" y1="276.88" x2="398.71" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,276.88c0-1.19-.26-2.17-.96-3.15-.65-.91-1.64-1.58-2.81-1.58" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,276.88v-4.69s-.02-.03,0-.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,276.88h-18.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="34.67" y1="89" x2="34.67" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="58.28" x2="379.89" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M.5,307.6c.05-.02,.1,0,.15,0H5.32" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="5.32" y1="276.88" x2="5.32" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M.5,276.88s.02,0,.04,0H5.32" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M9.08,272.15c-1.17,0-2.16,.67-2.81,1.58-.7,.98-.96,1.96-.96,3.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,276.88v-4.69s.02-.02,0-.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M15.86,276.88c0-1.19,.26-2.17,.96-3.15,.64-.91,1.64-1.58,2.81-1.58" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,276.88H15.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="15.86" y1="276.88" x2="5.32" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="398.71" y1="307.6" x2="398.71" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="409.25" y1="307.6" x2="398.71" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,307.6h-18.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="276.88" x2="379.89" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="34.67" y1="307.6" x2="34.67" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,307.6H15.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="15.86" y1="307.6" x2="15.86" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="15.86" y1="307.6" x2="5.32" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M399.84,319.42c2.92,0,5.4-1.67,7.01-3.94,1.62-2.28,2.4-5.12,2.4-7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M389.3,319.42c2.92,0,5.4-1.67,7.01-3.94,1.62-2.28,2.4-5.12,2.4-7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,319.42c-.02-.12,0-.23,0-.35v-11.47" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,319.42c-.04,.23,0-.23,0-.35v-11.47" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M25.27,319.42c-2.92,0-5.4-1.67-7.01-3.94-1.62-2.28-2.4-5.12-2.4-7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M14.72,319.42c-2.92,0-5.4-1.67-7.01-3.94-1.62-2.28-2.4-5.12-2.4-7.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="63.12" y1="276.88" x2="63.12" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="351.44" y1="89" x2="351.44" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="63.12" y1="89" x2="34.67" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="34.67" y1="58.28" x2="379.89" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="89" x2="351.44" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="351.44" y1="276.88" x2="379.89" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="34.67" y1="276.88" x2="63.12" y2="276.88" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M98.57,5.11c.05,.04,0,.08,0,.13v4" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="307.6" x2="34.67" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M315.99,9.24v-3.61c0-.17,.04-.34,0-.51" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="370.92" y1="128.57" x2="370.92" y2="237.31" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="43.64" y1="237.31" x2="43.64" y2="128.57" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+  </g>
+  <g id="Make2D::可见线::曲线">
+    <line x1="87.32" y1="8.84" x2="76.13" y2="8.84" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="338.44" y1="8.84" x2="327.25" y2="8.84" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="338.44" y1="41.86" x2="338.44" y2=".5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="397.52" y1="246.75" x2="397.52" y2="119.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="17.04" y1="119.14" x2="17.04" y2="246.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="76.12" y1=".5" x2="76.12" y2="41.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="48.32" y1="237.29" x2="48.32" y2="128.59" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="366.24" y1="128.59" x2="366.24" y2="237.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="17.63" y1="238.14" x2="17.63" y2="127.74" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="396.93" y1="127.74" x2="396.93" y2="238.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M327.02,8.67c.83,.59,1.61,1.25,2.34,1.97,.92,.93,1.74,1.95,2.45,3.04" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="258.56" y1="46.46" x2="258.56" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="231.62" y1="46.46" x2="231.62" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="182.94" y1="46.46" x2="182.94" y2="9.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="156" y1="9.24" x2="156" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="250.29" x2="133.43" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="212.48" x2="177.15" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="250.29" x2="289.4" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="212.48" x2="333.12" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="250.29" x2="81.44" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="212.48" x2="125.16" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="250.29" x2="229.14" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="250.29" x2="185.42" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="250.29" x2="237.41" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="250.29" x2="281.13" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="48.95" y1="110.29" x2="48.95" y2="250.49" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="365.62" y1="250.49" x2="365.62" y2="110.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="46.46" x2="34.67" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M258.56,9.24V5.14s-.02-.04,0-.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M231.62,9.24v-3.61c0-.17,.04-.34,0-.51" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M182.94,9.24v-4s-.05-.08,0-.13" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M156,9.24v-4s.04-.11,0-.13" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="255.14" y1="259.75" x2="211.42" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="211.42" y1="297.56" x2="255.14" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="212.48" x2="133.43" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="250.29" x2="177.15" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="70.69" x2="81.44" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="108.5" x2="125.16" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="108.5" x2="177.15" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="70.69" x2="133.43" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="70.69" x2="237.41" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="108.5" x2="281.13" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="108.5" x2="333.12" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="70.69" x2="289.4" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="108.5" x2="229.14" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="70.69" x2="185.42" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="117.95" x2="81.44" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="155.76" x2="125.16" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="203.03" x2="281.13" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="165.22" x2="237.41" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="45.4" y1="93.73" x2="45.4" y2="119.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="82.01" y1="319.42" x2="84.98" y2="324.26" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="361.55" y1="272.15" x2="369.16" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="369.16" y1="46.46" x2="369.16" y2="41.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="165.22" x2="185.42" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="203.03" x2="229.14" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="165.22" x2="133.43" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="203.03" x2="177.15" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="263.41" y1="297.56" x2="307.13" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="307.13" y1="259.75" x2="263.41" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="212.48" x2="289.4" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="250.29" x2="333.12" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="107.44" y1="297.56" x2="151.15" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="151.15" y1="259.75" x2="107.44" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="155.76" x2="333.12" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="117.95" x2="289.4" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="117.95" x2="133.43" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="155.76" x2="177.15" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="212.48" x2="81.44" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="250.29" x2="125.16" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="250.29" x2="229.14" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="212.48" x2="185.42" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="203.03" x2="125.16" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="165.22" x2="81.44" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="203.14" y1="259.75" x2="159.43" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="159.43" y1="297.56" x2="203.14" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="155.76" x2="229.14" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="117.95" x2="185.42" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="155.76" x2="281.13" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="117.95" x2="237.41" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="212.48" x2="237.41" y2="212.48" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="250.29" x2="281.13" y2="250.29" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="203.03" x2="333.12" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="165.22" x2="289.4" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="58.4" y1="93.73" x2="34.67" y2="93.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="356.16" y1="93.73" x2="379.89" y2="93.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="356.16" y1="93.73" x2="356.16" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="58.4" y1="272.15" x2="58.4" y2="93.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="379.89" y1="319.42" x2="34.67" y2="319.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M80.29,19.25c.85-3.23,2.55-6.24,4.91-8.6,3.5-3.5,8.42-5.54,13.37-5.54" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M331.83,13.69c1.13,1.74,1.93,3.55,2.46,5.55" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M321.26,5.86c2.11,.61,3.98,1.52,5.76,2.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="58.4" y1="272.16" x2="58.4" y2="272.2" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M332.8,15.41s.01,.02,.02,.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M334.27,19.25c.41,1.56,.63,3.16,.63,4.77" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M12.32,319.42c-6.53,0-11.82-5.29-11.82-11.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M14.72,319.42h-2.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="25.27" y1="319.42" x2="14.72" y2="319.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,319.42h-9.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M389.3,319.42h-9.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="399.84" y1="319.42" x2="389.3" y2="319.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M402.25,319.42h-2.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M402.25,319.42c6.53,0,11.82-5.29,11.82-11.81" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="19.62" y1="272.15" x2="9.08" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,272.15h-15.05" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M.5,276.88c0-2.61,2.12-4.73,4.73-4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M9.08,272.15h-3.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1=".5" y1="276.88" x2=".5" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M63.12,276.88c-1.58-1.58-3.15-3.15-4.73-4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M356.16,272.15c-1.58,1.58-3.15,3.15-4.73,4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M356.16,93.73c-1.58-1.58-3.15-3.15-4.73-4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M63.12,89c-1.58,1.58-3.15,3.15-4.73,4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,272.15h15.05" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="394.94" y1="272.15" x2="405.48" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="414.06" y1="276.88" x2="414.06" y2="307.6" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M409.34,272.15c2.61,0,4.73,2.12,4.73,4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M405.48,272.15h3.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="156" y1="5.11" x2="98.57" y2="5.11" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="182.94" y1="5.11" x2="156" y2="5.11" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="156" y1="26.38" x2="182.94" y2="26.38" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="231.62" y1="5.11" x2="182.94" y2="5.11" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="258.56" y1="5.11" x2="231.62" y2="5.11" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="231.62" y1="26.38" x2="258.56" y2="26.38" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="315.99" y1="5.11" x2="258.56" y2="5.11" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M398.71,89c0,1.19-.26,2.17-.96,3.15-.65,.91-1.64,1.58-2.81,1.58" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,93.73h15.05" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M365.62,250.49c0,4.5-1.29,8.91-3.71,12.71" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M365.35,106.73c.18,1.18,.27,2.36,.27,3.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="363.37" y1="93.73" x2="365.35" y2="106.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="356.16" y1="272.2" x2="356.16" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="49.21" y1="106.73" x2="51.2" y2="93.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M48.95,110.29c0-1.2,.09-2.38,.27-3.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M52.66,263.2c-2.42-3.8-3.71-8.21-3.71-12.71" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M34.67,93.73h-15.05" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M5.23,93.73c-2.61,0-4.73-2.11-4.73-4.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M9.08,93.73h-3.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M15.86,89c0,1.19,.26,2.17,.96,3.15,.64,.91,1.64,1.58,2.81,1.58" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M9.08,93.73c-1.17,0-2.16-.67-2.81-1.58-.7-.98-.96-1.96-.96-3.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M379.89,46.46h9.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="409.25" y1="89" x2="398.71" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M25.27,46.46h9.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="15.86" y1="89" x2="5.32" y2="89" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="203.03" x2="333.12" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="203.03" x2="289.4" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="117.95" x2="281.13" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="155.76" x2="237.41" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="155.76" x2="185.42" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="117.95" x2="229.14" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="203.14" y1="297.56" x2="203.14" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="159.43" y1="297.56" x2="159.43" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="165.22" x2="125.16" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="203.03" x2="81.44" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="117.95" x2="177.15" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="155.76" x2="133.43" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="117.95" x2="333.12" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="155.76" x2="289.4" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="151.15" y1="259.75" x2="151.15" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="107.44" y1="297.56" x2="107.44" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="307.13" y1="259.75" x2="307.13" y2="297.56" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="263.41" y1="297.56" x2="263.41" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="203.03" x2="133.43" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="165.22" x2="177.15" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="203.03" x2="185.42" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="165.22" x2="229.14" y2="203.03" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="203.03" x2="281.13" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="203.03" x2="237.41" y2="165.22" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="117.95" x2="125.16" y2="155.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="155.76" x2="81.44" y2="117.95" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="229.14" y1="70.69" x2="229.14" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="185.42" y1="108.5" x2="185.42" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="333.12" y1="108.5" x2="333.12" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="289.4" y1="108.5" x2="289.4" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="281.13" y1="108.5" x2="281.13" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="237.41" y1="108.5" x2="237.41" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="177.15" y1="70.69" x2="177.15" y2="108.5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="133.43" y1="108.5" x2="133.43" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="125.16" y1="108.5" x2="125.16" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="81.44" y1="108.5" x2="81.44" y2="70.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="255.14" y1="297.56" x2="255.14" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="211.42" y1="297.56" x2="211.42" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M79.67,24.02c0-1.61,.22-3.21,.63-4.77" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="156" y1="29.92" x2="182.94" y2="29.92" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="258.56" y1="29.92" x2="231.62" y2="29.92" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M315.99,5.11c1.78,0,3.55,.26,5.26,.76" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="414.06" y1="89" x2="414.06" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M414.06,89c.08-.06-.1,0-.15,0h-4.67" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="14.72" y1="46.46" x2="25.27" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M12.32,46.46h2.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M12.32,46.46c-6.53,0-11.82,5.29-11.82,11.82" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M402.25,46.46c6.53,0,11.82,5.29,11.82,11.82" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M399.84,46.46h2.41" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="389.3" y1="46.46" x2="399.84" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="370.92" y1="237.31" x2="396.93" y2="238.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="396.93" y1="127.74" x2="370.92" y2="128.57" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="43.64" y1="128.57" x2="17.63" y2="127.74" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="17.63" y1="238.14" x2="43.64" y2="237.31" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1=".5" y1="89" x2=".5" y2="58.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="79.67" y1="24.02" x2="79.67" y2="46.45" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="334.9" y1="46.46" x2="334.9" y2="24.02" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M366.24,128.59c1.56,0,3.12,.03,4.68-.02" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M370.92,237.31c-1.56-.05-3.12-.02-4.68-.02" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M48.32,237.29c-1.56,0-3.12-.03-4.68,.02" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <path d="M43.64,128.57c1.56,.05,3.12,.02,4.68,.02" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="58.4" y1="272.2" x2="52.66" y2="263.2" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="361.91" y1="263.2" x2="356.16" y2="272.2" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="356.16" y1="272.15" x2="379.89" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="58.4" y1="272.15" x2="34.67" y2="272.15" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="76.12" y1="41.86" x2="45.4" y2="41.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="45.4" y1="41.86" x2="45.4" y2="46.46" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="45.4" y1="119.14" x2="17.04" y2="119.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="17.04" y1="246.75" x2="45.4" y2="246.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="45.4" y1="246.75" x2="45.4" y2="259.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="45.4" y1="259.75" x2="53.01" y2="272.16" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="84.98" y1="324.26" x2="329.58" y2="324.26" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="329.58" y1="324.26" x2="332.55" y2="319.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="369.16" y1="259.75" x2="369.16" y2="246.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="369.16" y1="246.75" x2="397.52" y2="246.75" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="397.52" y1="119.14" x2="369.16" y2="119.14" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="369.16" y1="119.14" x2="369.16" y2="93.73" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="369.16" y1="41.86" x2="338.44" y2="41.86" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+    <line x1="338.44" y1=".5" x2="76.12" y2=".5" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round;"/>
+  </g>
+  <g id="_图层_3" data-name="图层 3">
+    <path d="M110.41,99.42h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+    <path d="M164.11,96.17v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33s-1.8,1.69-2.1,2.02c-.29,.33-.53,.66-.72,.97h6.95Z"/>
+    <path d="M202.51,94.57l3.39-.41c.11,.86,.4,1.52,.87,1.98,.47,.46,1.05,.69,1.72,.69,.72,0,1.33-.27,1.83-.82,.49-.55,.74-1.29,.74-2.22,0-.88-.24-1.58-.71-2.09-.47-.52-1.05-.77-1.73-.77-.45,0-.98,.09-1.61,.26l.39-2.85c.95,.03,1.67-.18,2.17-.62s.75-1.02,.75-1.74c0-.61-.18-1.1-.55-1.47-.37-.37-.85-.55-1.46-.55s-1.11,.21-1.53,.62c-.42,.42-.68,1.02-.77,1.82l-3.23-.55c.22-1.1,.56-1.99,1.02-2.65,.45-.66,1.08-1.18,1.89-1.56,.81-.38,1.72-.57,2.72-.57,1.72,0,3.1,.55,4.14,1.64,.85,.9,1.28,1.91,1.28,3.04,0,1.6-.88,2.88-2.63,3.84,1.05,.22,1.88,.73,2.51,1.51,.63,.78,.94,1.72,.94,2.83,0,1.6-.58,2.97-1.76,4.1s-2.63,1.69-4.37,1.69c-1.65,0-3.02-.48-4.11-1.43-1.09-.95-1.72-2.19-1.89-3.73Z"/>
+    <path d="M260.63,99.42v-3.67h-7.47v-3.06l7.92-11.6h2.94v11.58h2.27v3.08h-2.27v3.67h-3.39Zm0-6.75v-6.24l-4.2,6.24h4.2Z"/>
+    <path d="M306.94,94.72l3.49-.36c.1,.79,.39,1.41,.88,1.88s1.05,.69,1.69,.69c.73,0,1.35-.3,1.86-.89,.51-.59,.76-1.49,.76-2.68,0-1.12-.25-1.96-.75-2.52-.5-.56-1.16-.84-1.96-.84-1,0-1.91,.44-2.7,1.33l-2.84-.41,1.79-9.5h9.26v3.28h-6.6l-.55,3.1c.78-.39,1.58-.59,2.39-.59,1.55,0,2.87,.56,3.95,1.69,1.08,1.13,1.62,2.6,1.62,4.4,0,1.5-.44,2.84-1.31,4.02-1.19,1.61-2.84,2.42-4.95,2.42-1.69,0-3.06-.45-4.12-1.36-1.06-.91-1.7-2.12-1.91-3.65Z"/>
+    <path d="M113.14,132.52l-3.39,.37c-.08-.7-.3-1.21-.65-1.54-.35-.33-.8-.5-1.36-.5-.74,0-1.36,.33-1.88,1s-.83,2.05-.96,4.15c.87-1.03,1.96-1.54,3.25-1.54,1.46,0,2.71,.56,3.76,1.67,1.04,1.11,1.56,2.55,1.56,4.31,0,1.87-.55,3.37-1.64,4.5s-2.5,1.69-4.22,1.69c-1.84,0-3.36-.72-4.55-2.15s-1.78-3.78-1.78-7.04,.62-5.76,1.86-7.24,2.84-2.22,4.82-2.22c1.39,0,2.54,.39,3.44,1.16s1.49,1.9,1.74,3.38Zm-7.93,7.64c0,1.14,.26,2.02,.78,2.63,.52,.62,1.12,.93,1.79,.93s1.19-.25,1.62-.76c.43-.51,.65-1.34,.65-2.49s-.23-2.06-.7-2.61c-.47-.55-1.05-.83-1.74-.83s-1.24,.26-1.71,.79-.7,1.31-.7,2.34Z"/>
+    <path d="M152.12,131.55v-3.25h11.97v2.54c-.99,.97-1.99,2.37-3.01,4.19-1.02,1.82-1.8,3.75-2.33,5.8-.54,2.05-.8,3.88-.79,5.49h-3.38c.06-2.52,.58-5.1,1.56-7.72,.98-2.62,2.3-4.97,3.94-7.04h-7.96Z"/>
+    <path d="M205.46,136.46c-.91-.38-1.56-.91-1.97-1.58s-.62-1.4-.62-2.2c0-1.36,.47-2.49,1.43-3.38,.95-.89,2.3-1.33,4.05-1.33s3.08,.44,4.04,1.33c.96,.89,1.44,2.01,1.44,3.38,0,.85-.22,1.6-.66,2.26-.44,.66-1.06,1.17-1.86,1.51,1.01,.41,1.78,1,2.31,1.78,.53,.78,.79,1.68,.79,2.7,0,1.69-.54,3.06-1.61,4.11-1.08,1.05-2.51,1.58-4.29,1.58-1.66,0-3.04-.44-4.15-1.31-1.3-1.03-1.96-2.44-1.96-4.24,0-.99,.24-1.9,.73-2.72,.49-.83,1.26-1.46,2.32-1.91Zm.4,4.3c0,.96,.25,1.71,.74,2.25,.49,.54,1.11,.81,1.85,.81s1.32-.26,1.79-.78,.71-1.27,.71-2.25c0-.85-.24-1.54-.72-2.06-.48-.52-1.09-.78-1.83-.78-.86,0-1.49,.29-1.91,.88-.42,.59-.63,1.23-.63,1.92Zm.32-7.82c0,.7,.2,1.24,.59,1.63,.39,.39,.92,.59,1.58,.59s1.2-.2,1.59-.59,.6-.94,.6-1.64c0-.66-.2-1.18-.59-1.58s-.92-.59-1.56-.59-1.21,.2-1.61,.6c-.4,.4-.6,.93-.6,1.58Z"/>
+    <path d="M253.67,142.09l3.39-.37c.08,.69,.3,1.2,.65,1.53,.35,.33,.81,.5,1.38,.5,.72,0,1.34-.33,1.84-1s.83-2.04,.97-4.14c-.88,1.02-1.98,1.53-3.3,1.53-1.44,0-2.68-.55-3.72-1.66-1.04-1.11-1.56-2.55-1.56-4.33s.55-3.34,1.65-4.48,2.5-1.7,4.2-1.7c1.85,0,3.37,.72,4.56,2.15,1.19,1.43,1.78,3.79,1.78,7.07s-.62,5.75-1.86,7.23c-1.24,1.48-2.85,2.22-4.83,2.22-1.43,0-2.58-.38-3.46-1.14s-1.45-1.9-1.69-3.41Zm7.92-7.65c0-1.13-.26-2.01-.78-2.63-.52-.62-1.12-.93-1.8-.93s-1.19,.26-1.61,.77-.64,1.35-.64,2.51,.23,2.05,.7,2.6,1.05,.83,1.74,.83,1.24-.27,1.7-.8c.46-.53,.69-1.31,.69-2.34Z"/>
+    <g>
+      <path d="M305.67,146.31h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M316.82,127.98c1.77,0,3.15,.63,4.15,1.89,1.19,1.5,1.78,3.97,1.78,7.44s-.6,5.94-1.79,7.45c-.99,1.25-2.37,1.87-4.14,1.87s-3.21-.68-4.3-2.05c-1.09-1.37-1.63-3.8-1.63-7.31s.6-5.91,1.79-7.42c.99-1.25,2.37-1.87,4.14-1.87Zm0,2.9c-.42,0-.8,.14-1.13,.4-.33,.27-.59,.75-.77,1.45-.24,.91-.36,2.43-.36,4.57s.11,3.61,.32,4.42,.49,1.33,.82,1.6c.33,.27,.7,.4,1.13,.4s.8-.14,1.13-.41c.33-.27,.59-.75,.77-1.45,.24-.9,.36-2.42,.36-4.56s-.11-3.61-.32-4.42c-.22-.8-.49-1.34-.82-1.61-.33-.27-.7-.4-1.13-.4Z"/>
+    </g>
+    <g>
+      <path d="M100.59,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M113.38,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+    </g>
+    <g>
+      <path d="M150.43,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M167.49,190.2v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33s-1.8,1.69-2.1,2.02c-.29,.33-.53,.66-.72,.97h6.95Z"/>
+    </g>
+    <g>
+      <path d="M201.78,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M206.88,188.61l3.39-.41c.11,.86,.4,1.52,.87,1.98,.47,.46,1.05,.69,1.72,.69,.72,0,1.33-.27,1.83-.82,.49-.55,.74-1.29,.74-2.22,0-.88-.24-1.58-.71-2.09-.47-.52-1.05-.77-1.73-.77-.45,0-.98,.09-1.61,.26l.39-2.85c.95,.03,1.67-.18,2.17-.62s.75-1.02,.75-1.74c0-.61-.18-1.1-.55-1.47-.37-.37-.85-.55-1.46-.55s-1.11,.21-1.53,.62c-.42,.42-.68,1.02-.77,1.82l-3.23-.55c.22-1.1,.56-1.99,1.02-2.65,.45-.66,1.08-1.18,1.89-1.56,.81-.38,1.72-.57,2.72-.57,1.72,0,3.1,.55,4.14,1.64,.85,.9,1.28,1.91,1.28,3.04,0,1.6-.88,2.88-2.63,3.84,1.05,.22,1.88,.73,2.51,1.51,.63,.78,.94,1.72,.94,2.83,0,1.6-.58,2.97-1.76,4.1s-2.63,1.69-4.37,1.69c-1.65,0-3.02-.48-4.11-1.43-1.09-.95-1.72-2.19-1.89-3.73Z"/>
+    </g>
+    <g>
+      <path d="M253.91,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M266.01,193.46v-3.67h-7.47v-3.06l7.92-11.6h2.94v11.58h2.27v3.08h-2.27v3.67h-3.39Zm0-6.75v-6.24l-4.2,6.24h4.2Z"/>
+    </g>
+    <g>
+      <path d="M305.03,193.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7s1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M310.32,188.76l3.49-.36c.1,.79,.39,1.41,.88,1.88s1.05,.69,1.69,.69c.73,0,1.35-.3,1.86-.89,.51-.59,.76-1.49,.76-2.68,0-1.12-.25-1.96-.75-2.52-.5-.56-1.16-.84-1.96-.84-1,0-1.91,.44-2.7,1.33l-2.84-.41,1.79-9.5h9.26v3.28h-6.6l-.55,3.1c.78-.39,1.58-.59,2.39-.59,1.55,0,2.87,.56,3.95,1.69,1.08,1.13,1.62,2.6,1.62,4.4,0,1.5-.44,2.84-1.31,4.02-1.19,1.61-2.84,2.42-4.95,2.42-1.69,0-3.06-.45-4.12-1.36-1.06-.91-1.7-2.12-1.91-3.65Z"/>
+    </g>
+    <g>
+      <path d="M98.59,240.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7,1.07-.83,1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M115.69,226.66l-3.39,.37c-.08-.7-.3-1.21-.65-1.54-.35-.33-.8-.5-1.36-.5-.74,0-1.36,.33-1.88,1-.51,.66-.83,2.05-.96,4.15,.87-1.03,1.96-1.54,3.25-1.54,1.46,0,2.71,.56,3.76,1.67s1.56,2.55,1.56,4.31c0,1.87-.55,3.37-1.64,4.5-1.1,1.13-2.5,1.69-4.22,1.69-1.84,0-3.36-.72-4.55-2.15s-1.78-3.78-1.78-7.04,.62-5.76,1.86-7.24c1.24-1.48,2.84-2.22,4.82-2.22,1.39,0,2.54,.39,3.44,1.16s1.49,1.9,1.74,3.38Zm-7.93,7.64c0,1.14,.26,2.02,.78,2.63,.52,.62,1.12,.93,1.79,.93s1.19-.25,1.62-.76c.43-.51,.65-1.34,.65-2.49s-.23-2.06-.7-2.61c-.47-.55-1.05-.83-1.74-.83s-1.24,.26-1.71,.79-.7,1.31-.7,2.34Z"/>
+    </g>
+    <g>
+      <path d="M149.43,240.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7,1.07-.83,1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M154.67,225.69v-3.25h11.97v2.54c-.99,.97-1.99,2.37-3.01,4.19-1.02,1.82-1.8,3.75-2.33,5.8-.54,2.05-.8,3.88-.79,5.49h-3.38c.06-2.52,.58-5.1,1.56-7.72,.98-2.62,2.3-4.97,3.94-7.04h-7.96Z"/>
+    </g>
+    <g>
+      <path d="M201.78,240.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7,1.07-.83,1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M210.01,230.6c-.91-.38-1.56-.91-1.97-1.58-.41-.67-.62-1.4-.62-2.2,0-1.36,.47-2.49,1.43-3.38,.95-.89,2.3-1.33,4.05-1.33s3.08,.44,4.04,1.33c.96,.89,1.44,2.01,1.44,3.38,0,.85-.22,1.6-.66,2.26-.44,.66-1.06,1.17-1.86,1.51,1.01,.41,1.78,1,2.31,1.78,.53,.78,.79,1.68,.79,2.7,0,1.69-.54,3.06-1.61,4.11-1.08,1.05-2.51,1.58-4.29,1.58-1.66,0-3.04-.44-4.15-1.31-1.3-1.03-1.96-2.44-1.96-4.24,0-.99,.24-1.9,.73-2.72,.49-.83,1.26-1.46,2.32-1.91Zm.4,4.3c0,.96,.25,1.71,.74,2.25s1.11,.81,1.85,.81,1.32-.26,1.79-.78c.47-.52,.71-1.27,.71-2.25,0-.85-.24-1.54-.72-2.06-.48-.52-1.09-.78-1.83-.78-.86,0-1.49,.29-1.91,.88-.42,.59-.63,1.23-.63,1.92Zm.32-7.82c0,.7,.2,1.24,.59,1.63,.39,.39,.92,.59,1.58,.59s1.2-.2,1.59-.59,.6-.94,.6-1.64c0-.66-.2-1.18-.59-1.58s-.92-.59-1.56-.59-1.21,.2-1.61,.6c-.4,.4-.6,.93-.6,1.58Z"/>
+    </g>
+    <g>
+      <path d="M253.91,240.46h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7,1.07-.83,1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+      <path d="M259.22,236.23l3.39-.37c.08,.69,.3,1.2,.65,1.53,.35,.33,.81,.5,1.38,.5,.72,0,1.34-.33,1.84-1,.51-.66,.83-2.04,.97-4.14-.88,1.02-1.98,1.53-3.3,1.53-1.44,0-2.68-.55-3.72-1.66s-1.56-2.55-1.56-4.33,.55-3.34,1.65-4.48,2.5-1.7,4.2-1.7c1.85,0,3.37,.72,4.56,2.15s1.78,3.79,1.78,7.07-.62,5.75-1.86,7.22c-1.24,1.48-2.85,2.22-4.83,2.22-1.43,0-2.58-.38-3.46-1.14s-1.45-1.9-1.69-3.41Zm7.92-7.65c0-1.13-.26-2.01-.78-2.63-.52-.62-1.12-.93-1.8-.93s-1.19,.25-1.61,.77-.64,1.35-.64,2.51,.23,2.05,.7,2.6c.46,.55,1.05,.83,1.74,.83s1.24-.27,1.7-.8,.69-1.31,.69-2.34Z"/>
+    </g>
+    <g>
+      <path d="M309.9,237.2v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+      <path d="M318.18,222.12c1.77,0,3.15,.63,4.15,1.89,1.19,1.5,1.78,3.97,1.78,7.44s-.6,5.94-1.79,7.45c-.99,1.25-2.37,1.87-4.14,1.87s-3.21-.68-4.3-2.05-1.63-3.8-1.63-7.31,.6-5.91,1.79-7.42c.99-1.25,2.37-1.87,4.14-1.87Zm0,2.9c-.42,0-.8,.13-1.13,.4-.33,.27-.59,.75-.77,1.45-.24,.91-.36,2.43-.36,4.57s.11,3.61,.32,4.42c.22,.8,.49,1.33,.82,1.6s.7,.4,1.13,.4,.8-.13,1.13-.41c.33-.27,.59-.75,.77-1.45,.24-.9,.36-2.42,.36-4.56s-.11-3.61-.32-4.42-.49-1.34-.82-1.61c-.33-.27-.7-.4-1.13-.4Z"/>
+    </g>
+    <g>
+      <path d="M128.68,285.44v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+      <path d="M140,288.69h-3.5v-13.19c-1.28,1.2-2.79,2.08-4.52,2.65v-3.18c.91-.3,1.91-.87,2.98-1.7,1.07-.83,1.81-1.81,2.21-2.92h2.84v18.34Z"/>
+    </g>
+    <g>
+      <path d="M180.02,285.44v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+      <path d="M194.21,285.44v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+    </g>
+    <g>
+      <path d="M232.16,285.44v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+      <path d="M234.4,283.84l3.39-.41c.11,.86,.4,1.52,.87,1.98,.47,.46,1.05,.69,1.72,.69,.72,0,1.33-.27,1.83-.82s.74-1.29,.74-2.22c0-.88-.24-1.58-.71-2.09-.47-.52-1.05-.77-1.73-.77-.45,0-.98,.09-1.61,.26l.39-2.85c.95,.03,1.67-.18,2.17-.62,.5-.44,.75-1.02,.75-1.74,0-.62-.18-1.1-.55-1.47-.37-.37-.85-.55-1.46-.55s-1.11,.21-1.53,.62c-.42,.42-.68,1.02-.77,1.82l-3.23-.55c.22-1.1,.56-1.99,1.02-2.65,.45-.66,1.08-1.18,1.89-1.56,.81-.38,1.72-.57,2.72-.57,1.72,0,3.1,.55,4.14,1.64,.85,.9,1.28,1.91,1.28,3.04,0,1.6-.88,2.88-2.63,3.84,1.05,.22,1.88,.73,2.51,1.51s.94,1.72,.94,2.83c0,1.6-.58,2.97-1.76,4.1-1.17,1.13-2.63,1.69-4.37,1.69-1.65,0-3.02-.48-4.11-1.43-1.09-.95-1.72-2.19-1.89-3.73Z"/>
+    </g>
+    <g>
+      <path d="M283.28,285.44v3.25h-12.27c.13-1.23,.53-2.39,1.2-3.49,.66-1.1,1.98-2.56,3.94-4.38,1.58-1.47,2.54-2.47,2.9-2.99,.48-.72,.72-1.44,.72-2.14,0-.78-.21-1.38-.63-1.8-.42-.42-1-.63-1.74-.63s-1.31,.22-1.74,.66c-.43,.44-.68,1.17-.75,2.19l-3.49-.35c.21-1.93,.86-3.31,1.96-4.15,1.1-.84,2.47-1.26,4.11-1.26,1.8,0,3.22,.49,4.25,1.46,1.03,.97,1.54,2.18,1.54,3.62,0,.82-.15,1.6-.44,2.35-.29,.74-.76,1.52-1.4,2.34-.42,.54-1.19,1.32-2.29,2.33-1.1,1.01-1.8,1.69-2.1,2.02s-.53,.66-.72,.97h6.95Z"/>
+      <path d="M292.51,288.69v-3.67h-7.47v-3.06l7.92-11.6h2.94v11.58h2.27v3.08h-2.27v3.67h-3.39Zm0-6.75v-6.24l-4.2,6.24h4.2Z"/>
+    </g>
+  </g>
+</svg>

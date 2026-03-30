@@ -1,0 +1,13 @@
+# 创建简化的 requirements.txt
+sphinx>=7
+sphinx-simplepdf
+sphinx-rtd-theme
+myst-parser
+sphinx-design
+sphinx-copybutton
+sphinx-tabs
+sphinx-togglebutton
+recommonmark
+sphinxemoji
+sphinx-markdown-tables
+

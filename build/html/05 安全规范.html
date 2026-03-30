@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4. 安全规范 &mdash; iM-D硬件用户手册 V01 文档</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=ecde6cc0"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="_static/translations.js?v=540d3cec"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="5. 系统概览" href="06%20%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0.html" />
+    <link rel="prev" title="3. 手册概述" href="04%20%E6%89%8B%E5%86%8C%E6%A6%82%E8%BF%B0.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            iM-D硬件用户手册
+              <img src="_static/Logo1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目录</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="02%20%E5%89%8D%E8%A8%80.html">1. 前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02%20%E5%89%8D%E8%A8%80.html#id2">2. 重要安全说明</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04%20%E6%89%8B%E5%86%8C%E6%A6%82%E8%BF%B0.html">3. 手册概述</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. 安全规范</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id3">4.1. 简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">4.2. 安全警告标志说明</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">4.3. 警告及提醒</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">4.4. 拟定用途</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">4.5. 责任与风险</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">4.6. 防护措施要求</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">4.7. 可预见误用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">4.8. 剩余风险</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">4.9. 紧急停止</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">4.10. 紧急驱动</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id14">4.11. 标签及位置</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="06%20%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0.html">5. 系统概览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-1%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html">6. 快速入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07%20%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC.html">7. 技术规格</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08%20%E5%AE%89%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95.html">8. 安装与调试</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%E9%80%89%E9%85%8D%E8%AE%BE%E5%A4%87.html">9. 选配设备</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09%20%E7%BB%B4%E6%8A%A4.html">10. 维护</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10%20%E5%9B%9E%E6%94%B6%E5%A4%84%E7%90%86.html">11. 回收处理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11%20%E8%B4%A8%E9%87%8F%E4%BF%9D%E9%9A%9C.html">12. 质量保证</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">iM-D硬件用户手册</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">4. </span>安全规范</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/05 安全规范.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<span id="id2"></span><h1><span class="section-number">4. </span>安全规范<a class="headerlink" href="#id1" title="链接到此标题。"></a></h1>
+<section id="id3">
+<h2><span class="section-number">4.1. </span>简介<a class="headerlink" href="#id3" title="链接到此标题。"></a></h2>
+<p>本章主要介绍了使用移动底盘或移动底盘系统时应遵守的安全原则和规范。用户应仔细阅读本手册的安全方面相关内容，并严格遵守。操作人员应充分认识到移动底盘系统的复杂性和危险性，应特别注意与警告标志相关的内容。</p>
+</section>
+<section id="id4">
+<h2><span class="section-number">4.2. </span>安全警告标志说明<a class="headerlink" href="#id4" title="链接到此标题。"></a></h2>
+<p>本手册的危险等级规定使用如下警示标志进行说明，有关安全的内容，请严格遵守。</p>
+<table class="docutils align-default" id="id16">
+<caption><span class="caption-number">表 4.1 </span><span class="caption-text">安全标识说明</span><a class="headerlink" href="#id16" title="链接到此表格。"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 80.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>标识</strong></p></th>
+<th class="head"><p><strong>说明</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>警告：带电</strong></p></td>
+<td><p>这个标志表示可能引发危险的用电情况，若不避免，可导致人员伤害或设备严重损坏。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>警告</strong></p></td>
+<td><p>这个标志表示可能引发危险的情况，若不避免，可导致人员伤害或设备严重损坏。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>警告：热表面</strong></p></td>
+<td><p>这个标志表示可能引发危险的热表面，若接触，可造成人员伤害。</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>注意</strong></p></td>
+<td><p>这个标志表示重要事实和状况。</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>备注</strong></p></td>
+<td><p>此标志用于说明附加信息。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2><span class="section-number">4.3. </span>警告及提醒<a class="headerlink" href="#id5" title="链接到此标题。"></a></h2>
+<p>本节主要为保护操作人员以及在第一次安装时需要注意的相关事项。用户需要仔细阅读本手册的安全警告事项，但是有很多的可能性存在，很多事项描述不可能面面俱到，我们尽可能描述各种情况。</p>
+<table class="docutils align-default" id="id17">
+<caption><span class="caption-number">表 4.2 </span><span class="caption-text">通用警告标识</span><a class="headerlink" href="#id17" title="链接到此表格。"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 80.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>标识</strong></p></th>
+<th class="head"><p><strong>说明</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><a class="reference internal image-reference" href="_images/触电.png"><img alt="警告：带电" src="_images/%E8%A7%A6%E7%94%B5.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p><strong>警告：带电</strong></p>
+<ul class="simple">
+<li><p>必须按照本手册中的说明和警告安装移动底盘和所有电气设备。</p></li>
+<li><p>电源切断开关的安装高度为0.6～1.9 m（23.622~74.803 in），确保在出现意外的情况下，能够及时方便地切断电源。</p></li>
+<li><p>接触带电电气部件存在遭电击的危险，请勿在移动底盘通电时触摸其内部任何组件。</p></li>
+<li><p>在移动底盘运转过程中，保证控制柜电源线和移动底盘电源线可靠连接。严禁在工作模式下带电插拔电源线及端子。</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal image-reference" href="_images/危险.png"><img alt="警告" src="_images/%E5%8D%B1%E9%99%A9.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p><strong>警告：</strong></p>
+<ul class="simple">
+<li><p>需要专业调试人员对移动底盘按照规范进行安装和调试。</p></li>
+<li><p>移动底盘参数的设置和更改须由有许可的人员进行，并防止未授权的人员更改参数。</p></li>
+<li><p>需要具有移动底盘操作资格的人员检查每个安全功能，并确保参数和程序是正确的，才能启动移动底盘。</p></li>
+<li><p>初次使用时，需要对移动底盘的防护系统、设备和系统的完整性，以及操作的安全性进行检查，以确保没有任何损伤。</p></li>
+<li><p>将移动底盘与不同的机械连接起来可能加重危险或引发新的危险。始终对整个安装进行全面的风险评估。</p></li>
+<li><p>切勿改动移动底盘。对移动底盘的改动有可能造成集成商无法预测的危险。如果移动底盘以任何方式被改变或改动，JAKA不承担任何责任。</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default" id="id18">
+<caption><span class="caption-number">表 4.3 </span><span class="caption-text">通用警告标识</span><a class="headerlink" href="#id18" title="链接到此表格。"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 80.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>标识</strong></p></th>
+<th class="head"><p><strong>说明</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><a class="reference internal image-reference" href="_images/危险.png"><img alt="警告" src="_images/%E5%8D%B1%E9%99%A9.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p><strong>警告</strong></p>
+<ul class="simple">
+<li><p>移动底盘可能碾压人员脚部，造成伤害。必须在移动底盘作业区域内穿着安全鞋。</p></li>
+<li><p>移动底盘可能撞入有人站立的梯子、脚手架或类似设备，导致人员坠落受伤及设备损坏。禁止在移动底盘工作环境中放置梯子、脚手架或类似设备。</p></li>
+<li><p>当移动底盘停靠至货架时，站在其旁边的人员存在受到碰撞进而受伤的风险。必须使用警示胶带或类似标识，将对接区域明确标记为操作危险区域，并告知所有人员在移动底盘对接时不得站立于危险区域内。</p></li>
+<li><p>在移动底盘自楼梯驶下或驶过地面上的坑洞时存在导致人员严重受伤、移动底盘和设备严重损坏的风险。</p>
+<ul>
+<li><p>将所有下行楼梯和坑洞标记为地图上的禁止区域。</p></li>
+<li><p>在移动底盘操作区中的下行楼梯和坑洞周围安装实体障碍。如果移动底盘操作区附近不存在安全隐患因素，则仅标明禁止区域即可。</p></li>
+<li><p>及时更新地图。</p></li>
+<li><p>通知相关人员，移动底盘无法及时检测下行楼梯和地面上的坑洞，进而令其停止操作。</p></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2><span class="section-number">4.4. </span>拟定用途<a class="headerlink" href="#id6" title="链接到此标题。"></a></h2>
+<p>JAKA iM-D设计用于（人员无法进入的受限空间）室内工业环境中进行调试和使用。</p>
+<p>适用场景包括但不限于：</p>
+<ul class="simple">
+<li><p>多工位上下料</p></li>
+<li><p>自动分拣</p></li>
+<li><p>零部件转运</p></li>
+<li><p>检测</p></li>
+<li><p>巡逻</p></li>
+</ul>
+</section>
+<section id="id7">
+<h2><span class="section-number">4.5. </span>责任与风险<a class="headerlink" href="#id7" title="链接到此标题。"></a></h2>
+<p><strong>责任</strong></p>
+<p>该手册信息不涉及如何设计、安装及操作移动底盘的所有应用，也不涉及所有可能对移动底盘系统的安全造成影响的周边设备。</p>
+<p>JAKA移动底盘的使用者有责任确保遵循相关的切实可行的国家法律法规，确保完整的移动底盘应用中不存在任何重大危险。</p>
+<p>该手册包含的所有安全方面的信息都不得视为JAKA的保证，即使遵守所有的安全指示，操作人员所造成的伤害或损害依然有可能发生。</p>
+<p>JAKA会不断致力于提升本公司移动底盘的性能以及可靠性，本公司对本手册中存在的错误或者遗漏的信息概不负责，并且保留对本手册的最终解释权。</p>
+<p><strong>风险</strong></p>
+<p>在操作人员与移动底盘之间存在交互关系时就必然存在直接或者间接的肢体接触关系。接触时必须有足够的自我保护意识，使用者在使用本公司移动底盘时需要谨慎考虑使用工况。以下为可能出现的危险情况：</p>
+<ul class="simple">
+<li><p>搬运时移动底盘掉落砸伤人员的情况；</p></li>
+<li><p>由于移动底盘固定螺钉或螺栓松动导致伤人的情况；</p></li>
+<li><p>移动底盘工作时出现夹伤手指、碰撞伤人的情况；</p></li>
+<li><p>移动底盘出现故障没有及时修理而出现的伤人情况；</p></li>
+<li><p>使用尖锐末端执行器或工具连接端时可能存在危险的情况；</p></li>
+<li><p>移动底盘在有毒或者腐蚀性的环境中运转时存在伤人的情况；</p></li>
+<li><p>移动底盘在强磁场环境中的情况。</p></li>
+</ul>
+</section>
+<section id="id8">
+<h2><span class="section-number">4.6. </span>防护措施要求<a class="headerlink" href="#id8" title="链接到此标题。"></a></h2>
+<p>在安装JAKA移动底盘前，应根据当地及国家标准配置适当的防护装置。禁止在未安装适当防护装置的情况下启用各组件。安装、调试或维修后，须对防护装置进行功能测试。</p>
+<p>集成JAKA移动底盘至设备时，以下标准可作为参考（未穷举）：</p>
+<ul class="simple">
+<li><p>2006/42/EC机械指令</p></li>
+<li><p>2014/30/EU电磁兼容指令</p></li>
+<li><p>ISO 10218-1 工业移动底盘安全要求 第1部分：移动底盘</p></li>
+<li><p>ISO 10218-2 工业移动底盘安全要求 第2部分：移动底盘系统与集成</p></li>
+<li><p>ISO 13849-1 机械安全 控制系统安全相关部件 第1部分：设计通用原则</p></li>
+<li><p>ISO/TS 15066 协作移动底盘安全要求</p></li>
+<li><p>ISO 13857 机械安全 防止上下肢触及危险区域的安全距离</p></li>
+<li><p>ISO 14120 机械安全 防护装置 固定与可移动防护装置的设计及构造通用要求</p></li>
+<li><p>EN ISO 13854 机械安全 避免人体部位被挤压的最小间距</p></li>
+<li><p>ISO 13855 机械安全 防护装置定位与人体部位接近速度的关系</p></li>
+<li><p>NFPA 79 工业机械电气标准</p></li>
+<li><p>NFPA 70 国家电气规范</p></li>
+<li><p>U- 1740 移动底盘及设备安全标准</p></li>
+<li><p>U- 2011 工厂自动化设备标准</p></li>
+</ul>
+<p>操作JAKA移动底盘前，需针对具体应用进行风险评估并采取相应安全措施。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p><strong>设备意外运行风险</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>必须配置符合当地及国家标准的功能性安全防护装置。</p></li>
+<li><p>确保依据EN/ISO 12100标准在设计阶段完成并落实风险评估。</p></li>
+<li><p>系统首次运行前，需执行所有基于危害与风险分析的安全措施。</p></li>
+</ul>
+</div></blockquote>
+<p>未遵循上述要求可能导致人员死亡、重伤或设备损坏。</p>
+</div>
+</section>
+<section id="id9">
+<h2><span class="section-number">4.7. </span>可预见误用<a class="headerlink" href="#id9" title="链接到此标题。"></a></h2>
+<p>任何偏离预期用途的使用均被视为误用。其中包括但不限于：</p>
+<ul class="simple">
+<li><p>使用移动底盘运送人员。</p></li>
+<li><p>在移动底盘规格以外的斜坡上使用移动底盘。</p></li>
+<li><p>超出最大有效载荷。</p></li>
+<li><p>将急停按钮用于非急停的任何操作。</p></li>
+<li><p>将移动底盘用于医疗和攸关生命的应用。</p></li>
+<li><p>在允许的工作参数和环境规范之外操作移动底盘。</p></li>
+<li><p>在潜在爆炸性环境中使用移动底盘。</p></li>
+<li><p>在室外使用移动底盘。</p></li>
+</ul>
+</section>
+<section id="id10">
+<h2><span class="section-number">4.8. </span>剩余风险<a class="headerlink" href="#id10" title="链接到此标题。"></a></h2>
+<p>JAKA已识别出以下潜在危险：</p>
+<ul class="simple">
+<li><p>运行时接近风险：当移动底盘在运行中，若您进入其运动路径或靠近移动底盘，存在被碾压、卷入、卡住或撞击的危险。</p></li>
+<li><p>接触运行部件风险：若在移动底盘运行时与其发生接触，可能导致肢体被挤压或活动空间受限。</p></li>
+<li><p>停靠货架风险：当移动底盘停靠至托盘货架时，若您站立在其路径上或向其靠近，存在被碾压、卷入、受限或撞击的风险。</p></li>
+<li><p>举升作业风险：在机械臂取放托盘的过程中，移动底盘与货架之间可能形成挤压点，存在肢体被夹伤的风险。请留意移动底盘身上的安全警示贴纸。</p></li>
+<li><p>物品放置偏差风险：若因定位故障导致物品被放置在指定区域之外，您可能面临被挤压或行动受阻的风险。</p></li>
+<li><p>非法访问风险：未经授权的人员访问移动底盘控制系统，可能导致设备失控。请务必加强产品的IT网络安全防护。</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>特定的移动底盘应用场景可能存在本文未涵盖的其他重大危险。未识别相关风险可能导致人员伤亡或设备损坏。因此，在系统调试阶段，您有责任全面识别并评估您所搭建的移动底盘系统可能存在的所有潜在危险。</p>
+</div>
+</section>
+<section id="id11">
+<h2><span class="section-number">4.9. </span>紧急停止<a class="headerlink" href="#id11" title="链接到此标题。"></a></h2>
+<p>当发生紧急情况时，按下急停按钮，可以立即停止移动底盘的一切运动。紧急停机不可用作风险降低措施，但可视为次级保护设备，仅供危急情况下使用。正常情况下如需停止移动底盘运动，请使用其他方式。经过风险评估后，如需加装急停按钮，急停按钮必须符合IEC-60947-5-5的要求。</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>当按下紧急停止按钮时，移动底盘系统将切断移动底盘电源，在此情况下，虽然各关节之间的刹车装置会⾃动锁定关节，但在重力作用下，移动底盘本体仍会存在向下轻微幅度的移动，此时存在夹伤或碰撞人体的风险。</p>
+</div>
+</section>
+<section id="id12">
+<span id="id13"></span><h2><span class="section-number">4.10. </span>紧急驱动<a class="headerlink" href="#id12" title="链接到此标题。"></a></h2>
+<p>移动底盘处于急停状态时，长按3秒位于升降机构上的 <strong>抱闸释放按钮</strong> ，指示灯蓝色常亮，即可恢复运动。</p>
+<figure class="align-center" id="id19">
+<a class="reference internal image-reference" href="_images/按下释放抱闸按钮.svg"><img alt="_images/%E6%8C%89%E4%B8%8B%E9%87%8A%E6%94%BE%E6%8A%B1%E9%97%B8%E6%8C%89%E9%92%AE.svg" src="_images/%E6%8C%89%E4%B8%8B%E9%87%8A%E6%94%BE%E6%8A%B1%E9%97%B8%E6%8C%89%E9%92%AE.svg" style="width: 6cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 4.1 </span><span class="caption-text">底盘释放抱闸</span><a class="headerlink" href="#id19" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id14">
+<span id="id15"></span><h2><span class="section-number">4.11. </span>标签及位置<a class="headerlink" href="#id14" title="链接到此标题。"></a></h2>
+<p>下图为iM-D上的安全警示标签及铭牌。操作时请务必遵守标签上的说明和警告，以确保安全。请不要随意撕毁标签，小心处理贴有标签的部件或装置以及附近区域，以免损坏标签。标签仅作为示意。</p>
+<figure class="align-center" id="id20">
+<a class="reference internal image-reference" href="_images/iM-D铭牌位置.svg"><img alt="_images/iM-D%E9%93%AD%E7%89%8C%E4%BD%8D%E7%BD%AE.svg" src="_images/iM-D%E9%93%AD%E7%89%8C%E4%BD%8D%E7%BD%AE.svg" style="width: 14cm;" />
+</a>
+<figcaption>
+<p><span class="caption-number">图 4.2 </span><span class="caption-text">iM-D铭牌位置</span><a class="headerlink" href="#id20" title="链接到此图片"></a></p>
+</figcaption>
+</figure>
+<div style="clear: both;"></div><table class="docutils align-default" id="id21">
+<caption><span class="caption-number">表 4.4 </span><span class="caption-text">铭牌及标签描述</span><a class="headerlink" href="#id21" title="链接到此表格。"></a></caption>
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 60.0%" />
+<col style="width: 20.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>序号</strong></p></th>
+<th class="head"><p><strong>标签</strong></p></th>
+<th class="head"><p><strong>解释</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>A</p></td>
+<td><a class="reference internal image-reference" href="_images/iM-D铭牌.svg"><img alt="iM-D铭牌" src="_images/iM-D%E9%93%AD%E7%89%8C.svg" style="width: 6cm;" />
+</a>
+</td>
+<td><p>iM-D铭牌</p></td>
+</tr>
+<tr class="row-odd"><td><p>B</p></td>
+<td><a class="reference internal image-reference" href="_images/撞击.png"><img alt="当心撞击" src="_images/%E6%92%9E%E5%87%BB.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p>当心撞击</p></td>
+</tr>
+<tr class="row-even"><td><p>C</p></td>
+<td><a class="reference internal image-reference" href="_images/夹手.png"><img alt="当心夹手" src="_images/%E5%A4%B9%E6%89%8B.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p>当心夹手</p></td>
+</tr>
+<tr class="row-odd"><td><p>D</p></td>
+<td><a class="reference internal image-reference" href="_images/触电.png"><img alt="当心触电" src="_images/%E8%A7%A6%E7%94%B5.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p>当心触电</p></td>
+</tr>
+<tr class="row-even"><td><p>E</p></td>
+<td><a class="reference internal image-reference" href="_images/热表面.png"><img alt="当心高温表面" src="_images/%E7%83%AD%E8%A1%A8%E9%9D%A2.png" style="width: 1.5cm;" />
+</a>
+</td>
+<td><p>当心高温表面</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="04%20%E6%89%8B%E5%86%8C%E6%A6%82%E8%BF%B0.html" class="btn btn-neutral float-left" title="3. 手册概述" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="06%20%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0.html" class="btn btn-neutral float-right" title="5. 系统概览" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2026, JAKA。</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
