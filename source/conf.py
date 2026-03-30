@@ -59,7 +59,7 @@ html_search_options = {
     'type': 'jieba',
     'lang': 'zh_CN'
 }
-
+html_show_sourcelink = False
 
 # 查找图片偏好
 from sphinx.builders.html import StandaloneHTMLBuilder
