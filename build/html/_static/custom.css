@@ -1,3 +1,14 @@
+/* 去掉图片及其父元素的蓝色虚线 */
+a:focus,
+img:focus {
+  outline: none !important;
+}
+
+/* 更彻底（可选） */
+*:focus {
+  outline: none !important;
+}
+
 a img {
   outline: none !important;
 }
@@ -6,6 +17,3 @@ a:focus img {
   outline: none !important;
 }
 
-:target {
-  outline: none;
-}
