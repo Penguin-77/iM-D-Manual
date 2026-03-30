@@ -9,7 +9,7 @@
   <title>9. 选配设备 &mdash; iM-D硬件用户手册 V01 文档</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
-      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=0d48cb88" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css" />
       <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
 
   
@@ -133,15 +133,15 @@
 </ul>
 <div class="admonition attention">
 <p class="admonition-title">注意</p>
-<p>如果仅依靠3D相机来检测人员，机器人可能会与人员发生碰撞并导致受伤。</p>
+<p>如果仅依靠3D相机来检测人员，移动底盘可能会与人员发生碰撞并导致受伤。</p>
 <ul class="simple">
 <li><p>请勿在修改激光扫描仪设置时，期望3D相机能够防止与人员发生碰撞。</p></li>
-<li><p>在对机器人进行风险评估时，请勿将3D相机作为与安全相关的风险降低措施。</p></li>
+<li><p>在对移动底盘进行风险评估时，请勿将3D相机作为与安全相关的风险降低措施。</p></li>
 </ul>
 </div>
 <p>3D相机存在以下局限性：</p>
 <ul class="simple">
-<li><p>只能检测机器人前方的物体，无法像激光扫描仪那样提供360°全方位视野。</p></li>
+<li><p>只能检测移动底盘前方的物体，无法像激光扫描仪那样提供360°全方位视野。</p></li>
 <li><p>无法可靠地检测薄型物体，如托盘叉或货架。</p></li>
 <li><p>难以检测透明或反光障碍物。</p></li>
 <li><p>无法检测孔洞或下行的楼梯。</p></li>
@@ -216,7 +216,7 @@
 </section>
 <section id="id8">
 <span id="id9"></span><h3><span class="section-number">9.2.2. </span>充电桩显示屏<a class="headerlink" href="#id8" title="链接到此标题。"></a></h3>
-<p>充电桩上有一触摸显示屏，用于监控及操作充电机状态。</p>
+<p>充电桩上有一触摸显示屏，用于监控充电桩状态及配置充电桩参数。</p>
 <figure class="align-center" id="id32">
 <a class="reference internal image-reference" href="_images/充电桩显示屏.svg"><img alt="_images/%E5%85%85%E7%94%B5%E6%A1%A9%E6%98%BE%E7%A4%BA%E5%B1%8F.svg" src="_images/%E5%85%85%E7%94%B5%E6%A1%A9%E6%98%BE%E7%A4%BA%E5%B1%8F.svg" style="width: 6cm;" />
 </a>
@@ -264,12 +264,9 @@
 <li><p>电压过高：充电桩的输出电压高于预设值。</p></li>
 <li><p>电流过高：充电桩的输出电流高于预设值。</p></li>
 <li><p>温度过高：充电桩的温度高于预设值。</p></li>
-<li><p>风扇故障：充电机的风扇故障。</p></li>
-<li><p>输出短路：充电机的输出短路。</p></li>
-<li><p>模块通信异常：充电机模块间通信异常。</p></li>
-<li><p>电池过压/过流/过温：BMS检测到电池异常。</p></li>
-<li><p>BMS通信异常：BMS与充电机之间通信异常。</p></li>
-<li><p>相序故障：检测到充电机输入缺相/反相故障。</p></li>
+<li><p>风扇故障：充电桩的风扇故障。</p></li>
+<li><p>输出短路：充电桩的输出短路。</p></li>
+<li><p>模块通信异常：充电桩模块间通信异常。</p></li>
 </ul>
 </li>
 </ul>
