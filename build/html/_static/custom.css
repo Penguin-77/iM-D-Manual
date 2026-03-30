@@ -1,0 +1,11 @@
+a img {
+  outline: none !important;
+}
+
+a:focus img {
+  outline: none !important;
+}
+
+:target {
+  outline: none;
+}

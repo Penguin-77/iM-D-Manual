@@ -60,6 +60,7 @@ html_search_options = {
     'lang': 'zh_CN'
 }
 html_show_sourcelink = False
+html_css_files = ['custom.css']
 
 # 查找图片偏好
 from sphinx.builders.html import StandaloneHTMLBuilder
