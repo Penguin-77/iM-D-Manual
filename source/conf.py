@@ -41,6 +41,8 @@ numfig = True
 numfig_secnum_depth = 1
 
 # -- HTML -------------------------------------------------
+def setup(app):
+    app.add_css_file('custom.css')
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
@@ -60,7 +62,7 @@ html_search_options = {
     'lang': 'zh_CN'
 }
 html_show_sourcelink = False
-html_css_files = ['custom.css']
+
 
 # 查找图片偏好
 from sphinx.builders.html import StandaloneHTMLBuilder
