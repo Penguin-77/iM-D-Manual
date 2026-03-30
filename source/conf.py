@@ -6,7 +6,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'iM-D硬件用户手册'
-copyright = '2026, JAKA'
+copyright = '2026, JAKA Robotics'
 author = 'JAKA'
 release = 'V01'
 
